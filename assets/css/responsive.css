@@ -1,0 +1,326 @@
+/* 1400, 1199, 991, 767, 575, 480, 360, 320 */
+/* CSS Index
+-----------------------------------
+1.default css
+-----------------------------------
+*/
+
+/* min-width 1500 */
+@media (max-width: 1600px) {
+
+    
+}
+/* min-width 1500 */
+@media (max-width: 1500px) {
+   /* ======================= trusted section start ====================== */
+   .logo-wrapper {
+        gap: 73px;
+    }
+   /* ======================= trusted section end ====================== */
+}
+
+/* max-width 1399 */
+@media (max-width: 1399.98px) {
+
+
+
+}
+
+/* max-width 1199 */
+@media (max-width: 1200px) {
+
+
+    .banner-content {
+        margin-top: 0;
+        padding-right: 30px;
+    }
+    .banner-area {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* ======================= home industries section start ====================== */
+    .home-industries{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* ======================= home industries section end ====================== */
+
+    /* ======================= trusted section start ====================== */
+   .logo-wrapper {
+        gap: 63px;
+    }
+    /* ======================= trusted section end ====================== */
+}
+
+/* max-width 991 */
+@media (max-width: 991.98px) {
+
+    .section-title{
+        font-size: 26px;
+        line-height: 1.15;
+    }
+   /* ======================= banner section start ====================== */
+   .banner-area .row{
+    --bs-gutter-y:63px;
+   }
+   .banner-area{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        min-height: auto;
+   }
+   .top-banner-title {
+        font-size: 30px;
+        line-height: 1.33;
+    }
+    .banner-content h1 {
+        margin-bottom: 30px;
+    }
+    .big-square-banner {
+        width: 600px;
+    }
+    .banner-content {
+        padding-right: 50px;
+    }
+    .banner-content .button-wrapper {
+        margin-top: 3px;
+    }
+   /* ======================= banner section end ====================== */
+
+   /* ======================= home industries section start ====================== */
+   .home-industries{
+    padding-top: 100px;
+   }
+   .our-building .row {
+        flex-direction: column-reverse;
+    }
+    .green-line-big.none {
+        display: none;
+    }
+    .promise-image {
+        width: 80%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    .home-industries-image {
+        padding-left: 0;
+    }
+    .home-industries-content h2 {
+        line-height: 1.15;
+    }
+    .service-square {
+        min-height: 180px;
+    }
+    .our-market .row {
+        --bs-gutter-x: 15px;
+    }
+    .service-content-info {
+        padding: 0 15px;
+    }
+   /* ======================= home industries section end ====================== */
+
+   
+    /* ======================= trusted section start ====================== */
+    .logo-wrapper {
+      flex-wrap: wrap;
+    }
+    /* ======================= trusted section end ====================== */
+
+    /* ======================= testimonial section start ====================== */
+    .testimonial-area{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .testimonial-left-info {
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 70px;
+        position: relative;
+        z-index: 1;
+    }
+    .half-section{
+        display: none;
+    }
+    .testi-wrapper-info {
+        gap: 36px;
+    }
+    .testi-wrapper {
+        max-width: 318px;
+    }
+    /* ======================= testimonial section end ====================== */
+
+    /* ======================= footer section start ====================== */
+    .footer {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .left-copyright-flex {
+        margin-bottom: 40px;
+    }
+    .left-copyright-flex a{
+        margin-left: 0;
+    }
+    /* ======================= footer section end ====================== */
+}
+
+/* max-width 767 */
+@media (max-width: 767.98px) {
+    .section-title{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+   /* ======================= banner section start ====================== */
+   .banner-area {
+        padding-bottom: 155px;
+    }
+    .big-square-banner {
+        width: 400px;
+    }
+    .top-banner-title {
+        font-size: 26px;
+        line-height: 1.30;
+    }
+    .scroll-down {
+        display: none;
+    }
+   /* ======================= banner section end ====================== */
+
+  /* ======================= home industries section start ====================== */
+  .home-industries{
+    padding: 60px 10px;
+  }
+  .promise-image {
+        width: 100%;
+    }
+    .home-industries-content h2 {
+        font-size: 20px;
+        line-height:1.3;
+    }
+    .our-market {
+        margin-top: 130px;
+    }
+    .our-market .col-sm-4 {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .our-market .section-title {
+        margin-bottom: 80px;
+    }
+    .service-square {
+        display: none;
+    }
+    .services-image {
+        position: relative;
+        top: 0%;
+        transform: none;
+    }
+  /* ======================= home industries section end ====================== */
+
+    /* ======================= trusted section start ====================== */
+    .trusted-area {
+        padding: 80px 10px;
+    }
+    /* ======================= trusted section end ====================== */
+
+    /* ======================= testimonial section start ====================== */
+    .testi-wrapper-info{
+        flex-wrap: wrap;
+    }
+    .testi-wrapper {
+        width: 100%;
+        border: 1px solid #ededed;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width: 100%;
+    }
+    .testi-wrapper-info {
+        gap: 20px;
+    }
+    .testimonial-area {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* ======================= testimonial section end ====================== */
+
+    /* ======================= testimonial section end ====================== */
+    .footer {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .footer-content-wrapper {
+        margin-top: 50px;
+    }
+    /* ======================= testimonial section end ====================== */
+}
+
+/* max-width 575 */
+@media (max-width: 575.98px) {
+/* ======================= trusted section start ====================== */
+.logo-img-wrapper img {
+    max-width: 109px;
+}
+.logo-img-wrapper {
+    flex-basis: 30%;
+}
+.logo-wrapper {
+    gap: 30px;
+}
+/* ======================= trusted section end ====================== */
+
+/* ======================= testimonial section start ====================== */
+.testimonial-area {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* ======================= testimonial section end ====================== */
+
+/* ======================= header popup section start ====================== */
+.left-part{
+    width: 100%;
+}
+.navigation-wrapper{
+    min-width: 100%;
+}
+/* ======================= header popup section end ====================== */
+}
+
+/* max-width 479 */
+@media (max-width: 479.98px) {
+
+    /* ======================= banner section start ====================== */
+    .banner-area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .top-banner-title {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .button-wrapper {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /* ======================= banner section end ====================== */
+
+    /* ======================= trusted section start ====================== */
+    .logo-wrapper {
+        gap: 16px;
+    }
+    .logo-img-wrapper {
+        flex-basis: 35%;
+    }
+    .logo-img-wrapper img {
+        max-width: 96px;
+    }
+    /* ======================= trusted section end ====================== */
+
+
+}
+
+/* max-width 383 */
+@media (max-width: 383.98px) {
+  
+}
