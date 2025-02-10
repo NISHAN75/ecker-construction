@@ -22,6 +22,9 @@
 .font-oxygen {
     font-family: "Oxygen", serif;
 }
+.font-oxygen {
+    font-family: "news-gothic-std", serif;
+}
 @font-face {
     font-family: "news-gothic-std";
     src: url('../fonts/NewsGothicStd.woff2') format('woff2'),
@@ -198,11 +201,11 @@ h1 {
 }
 
 h2 {
-    margin-top: 26px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h4 {
@@ -412,6 +415,7 @@ h6 {
     background-color: rgba(0, 0, 0, 0);
     margin-left: 15px;
     max-width: 20px;
+    height: 20px;
 }
 .button-text-second ,
 .button-text {
@@ -468,6 +472,79 @@ h6 {
     color: var(--white);
     font-family: "news-gothic-std" , serif;
     font-weight: 700;
+}
+
+/* sub banner */
+.sub-banner {
+    min-height: 500px;
+    opacity: 1;
+    background-image: linear-gradient(rgba(98, 125, 130, .9), rgba(98, 125, 130, .9)), url("../images/banner/sub-banner.jpg");
+    background-position: 0 0, 50% 100%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    position: relative;
+}
+.sub-banner-content p {
+    font-size: 17px;
+    line-height: 1.47;
+}
+.sub-banner-content h1 {
+    margin-bottom: 20px;
+}
+.bottom-navigation {
+    z-index: 4;
+    width: 60%;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: 25px;
+    right: auto;
+}
+.overlay-botton-line {
+    width: 100%;
+    height: 100%;
+    background-color: var(--royal);
+    position: absolute;
+    transform: skew(-20deg);
+}
+.bottom-content {
+    z-index: 5;
+    color: #fff;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    font-family: "news-gothic-std", serif;
+    font-weight: 400;
+    display: flex;
+    position: relative;
+}
+.bottom-icon {
+    max-width: 30px;
+    margin-right: 15px;
+}
+.bottom-content-link {
+    color: #fff;
+    font-family: "news-gothic-std", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    display: block;
+    transition: all 0.3s linear;
+}
+.bottom-content-link:hover{
+    opacity: 0.7;
 }
 /* ======================= banner section end ====================== */
 
@@ -961,6 +1038,13 @@ h6 {
     font-size: 26px;
     line-height: 1.30;
 }
+.top-title-text.bigger {
+    font-size: 30px;
+    line-height: 1.33;
+}
+.top-title-text.bigger.dark {
+    color: var(--navy);
+}
 .contact-info label{
     color: var(--dark-grey-paragraph);
     letter-spacing: 2px;
@@ -1049,4 +1133,267 @@ h6 {
 
 /* preloader */
 
+
+/* ======================= budgeting section start ====================== */
+.budgeting-area {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Rewarding-item {
+    padding: 50px 0;
+}
+.services-image {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+    transform: translate(0, -50%);
+}
+.service-square.bigger {
+    min-height: 500px;
+}
+.budgeting-content p,
+.service-title{
+    color: var(--navy);
+}
+.budgeting-content h3 {
+    margin-bottom: 44px;
+}
+.budgeting-content {
+    padding-left: 50px;
+    max-width: 490px;
+}
+.row-reverse .row{
+    flex-direction: row-reverse;
+}
+.budgeting-item.row-reverse .budgeting-content{
+    padding-left: 0;
+    padding-right: 50px;
+}
+.budgeting-item {
+    margin-bottom: 140px;
+}
+.budgeting-item:last-child{
+    margin-bottom: 0;
+}
+.Rewarding-item .button-wrapper {
+    margin-top: 41px;
+}
+/* ======================= budgeting section end ====================== */
+
+/* ======================= our market section start ====================== */
+.sub-banner.projects, .sub-banner.markets {
+    min-height: 350px;
+}
+.body{
+    background-color: var(--ghost-white-section-2);
+}
+.our-market-area {
+    padding: 167px 0 100px;
+}
+.our-market-area .row {
+    --bs-gutter-x: 41px;
+    --bs-gutter-y:24px;
+}
+.our-market-area .service-content-info p{
+    color: var(--navy);
+}
+.our-market-area .service-content-info .button-wrapper {
+    margin-top: 12px;
+}
+.our-market-item{
+    max-width: 1162px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* ======================= our market section end ====================== */
+
+/* ======================= healthcare project section start ====================== */
+.healthcare-project-area {
+    padding-top: 50px;
+}
+.healthcare-project-area .row{
+    --bs-gutter-x:16px;
+    --bs-gutter-y:16px;
+}
+.healthcare-img{
+    object-fit: cover;
+    min-height: 300px;
+    width: 100%;
+    display: block;
+}
+.healthcare-project-content {
+    background-color: var(--navy);
+    padding: 30px 20px 61px;
+}
+.healthcare-project-content h4 {
+    color: #fff;
+    margin-bottom: 26px;
+    line-height: 1.33;
+}
+.Rewarding-item p{
+    color: var(--navy);
+    margin-bottom: 0;
+}
+/* ======================= healthcare project section end ====================== */
+
+/* ======================= single healthcare project section end ====================== */
+.single-healthcare-area {
+    padding: 140px 20px 83px;
+}
+.single-healthcare-img-wrapper img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.white-color {
+    border-right: 1px solid var(--ghost-white-section);
+    text-align: right;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+.project-square-title {
+    color: var(--dark-green);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.white-color.second-color {
+    text-align: left;
+    border-right-style: none;
+}
+.single-healthcare-content-info .row {
+    --bs-gutter-x: 0;
+}
+.white-color.grayer {
+    background-color: var(--ghost-white-section-2);
+}
+.single-healthcare-content-info > div{
+    flex: 1 0 50%;
+}
+.gallery {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.gallery > a {
+    display: block;
+    flex: 1 0 calc(25% - 20px);
+    height: 250px;
+}
+.gallery > a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.fancybox__thumbs .carousel__slide .fancybox__thumb::after {
+    border: 0;
+    border-radius: 0;
+}
+.fancybox__thumb {
+    border-radius: 0;
+}
+.fancybox__thumbs .carousel__slide{
+    transition: all 0.3s linear;
+}
+.carousel__slide.has-thumb.has-image.is-selected.is-nav-selected {
+    opacity: 0.3;
+}
+.carousel__button{
+    opacity: 0.8;
+}
+.carousel__button:hover{
+    opacity: 1;
+}
+.single-bottom-btn .button-wrapper {
+    margin-top: 15px;
+    padding: 16px 47px;
+}
+.single-healthcare-content-info {
+    margin-top: 44px;
+    box-shadow: 0 20px 50px -20px rgba(0, 0, 0, .05);
+}
+/* ======================= single healthcare project section end ====================== */
+
+/* ======================= related projects section start ====================== */
+.related-projects-area{
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.related-projects-card {
+    background-color: var(--navy);
+    padding: 20px;
+    gap: 10px;
+}
+.related-projects-card > div{
+    flex: 1 0 50%;
+}
+.related-projects-card-info {
+    padding-top: 10px;
+}
+.related-projects-area h2 {
+    color: var(--navy);
+    font-size: 38px;
+    line-height: 1.15;
+}
+.related-projects-card-info h4 {
+    color: #fff;
+}
+.related-projects-card-info .button-wrapper {
+    margin-top: 20px;
+}
+.healthcare-project-content .right-button-arrow ,
+.related-projects-card-info .right-button-arrow {
+    margin-left: 0;
+}
+.related-projects-item {
+    margin-top: 53px;
+}
+/* ======================= related projects section end====================== */
+
+/* ======================= project manager section start ====================== */
+.section-title-wrapper  {
+    padding: 159px 0 85px;
+}
+.section-title-wrapper  h2 {
+    color: var(--navy);
+    font-size: 38px;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.section-title-wrapper p{
+    color: var(--navy);
+}
+
+.accordion-header {
+    background-color: var(--navy);
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.faq-icon {
+    z-index: 2;
+    width: 24px;
+    align-items: center;
+    margin-right: 16px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+    transform: translateY(-50%);
+}
+/* ======================= project manager section end ====================== */
 

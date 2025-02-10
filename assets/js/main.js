@@ -1,29 +1,35 @@
 (function ($) {
     $(document).ready(function () {
         // header sticky
+
+
         var windowOn = $(window);
         const $video = $(".video-item");
-        const $playButton = $(".video-play-icon");
-        const $playIcon = $(".play-icon");
-        const $pauseIcon = $(".pause-icon");
-    
-        // Ensure video plays by default
-        $video.get(0).play();
-        $playIcon.hide();
-        $pauseIcon.show();
-    
-        // Handle play/pause toggle
-        $playButton.on("click", function () {
-            if ($video.get(0).paused) {
-                $video.get(0).play();
-                $playIcon.hide();
-                $pauseIcon.show();
-            } else {
-                $video.get(0).pause();
-                $playIcon.show();
-                $pauseIcon.hide();
-            }
-        });
+        if($video.length){
+            const $playButton = $(".video-play-icon");
+            const $playIcon = $(".play-icon");
+            const $pauseIcon = $(".pause-icon");
+        
+            // Ensure video plays by default
+            $video.get(0).play();
+            $playIcon.hide();
+            $pauseIcon.show();
+        
+            // Handle play/pause toggle
+            $playButton.on("click", function () {
+                if ($video.get(0).paused) {
+                    $video.get(0).play();
+                    $playIcon.hide();
+                    $pauseIcon.show();
+                } else {
+                    $video.get(0).pause();
+                    $playIcon.show();
+                    $pauseIcon.hide();
+                }
+            });
+        }
+
+ 
 
         // brand slider 
         let brandSlider = new Swiper(".tp-brand-top", {
@@ -98,6 +104,44 @@
             setTimeout(function () {
               $('.preloader').addClass('hidden');
             }, 1000); 
+          });
+
+        // Lenis
+		const lenis = new Lenis()
+
+		lenis.on('scroll', (e) => {
+		})
+
+		lenis.on('scroll', ScrollTrigger.update)
+
+		gsap.ticker.add((time) => {
+			lenis.raf(time * 1000)
+		})
+
+		gsap.ticker.lagSmoothing(0);
+        let lastScrollY = 0;
+
+        // Assuming lenis is already initialized
+        lenis.on("scroll", ({ scroll }) => {
+          const header = $(".header-area");
+      
+          if (scroll > lastScrollY) {
+            // Scrolling down
+            header.removeClass("header-scroll-up").addClass("header-scroll-down");
+          } else {
+            // Scrolling up
+            header.removeClass("header-scroll-down").addClass("header-scroll-up");
+          }
+      
+          lastScrollY = scroll <= 0 ? 0 : scroll; // Ensure non-negative value
+        });
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            Thumbs: {
+              autoStart: true, // Show thumbnails by default
+            },
+            Toolbar: {
+              display: ['close'],
+            },
           });
     });
 })(jQuery);
