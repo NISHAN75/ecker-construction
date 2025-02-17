@@ -6,495 +6,875 @@
 */
 
 /* min-width 1500 */
-@media (max-width: 1600px) {
+@media (max-width: 1600px) {}
 
-    
-}
 /* min-width 1500 */
 @media (max-width: 1500px) {
-   /* ======================= trusted section start ====================== */
-   .logo-wrapper {
-        gap: 73px;
-    }
-   /* ======================= trusted section end ====================== */
+
+	/* ======================= trusted section start ====================== */
+	.logo-wrapper {
+		gap: 73px;
+	}
+
+	/* ======================= trusted section end ====================== */
 }
 
 /* max-width 1399 */
-@media (max-width: 1399.98px) {
-
-
-
-}
+@media (max-width: 1399.98px) {}
 
 /* max-width 1199 */
 @media (max-width: 1200px) {
 
 
-    .banner-content {
-        margin-top: 0;
-        padding-right: 30px;
-    }
-    .banner-area {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .sub-banner {
-        padding-bottom: 160px;
-        padding-top: 140px;
-    }
-    .bottom-navigation {
-        width: 90%;
-    }
-    /* ======================= home industries section start ====================== */
-    .home-industries{
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    /* ======================= home industries section end ====================== */
+	.banner-content {
+		margin-top: 0;
+		padding-right: 30px;
+	}
 
-    /* ======================= trusted section start ====================== */
-   .logo-wrapper {
-        gap: 63px;
-    }
-    /* ======================= trusted section end ====================== */
+	.banner-area {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.sub-banner {
+		padding-bottom: 160px;
+		padding-top: 140px;
+	}
+
+	.bottom-navigation {
+		width: 90%;
+	}
+
+	/* ======================= home industries section start ====================== */
+	.home-industries {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	/* ======================= home industries section end ====================== */
+
+	/* ======================= trusted section start ====================== */
+	.logo-wrapper {
+		gap: 63px;
+	}
+
+	/* ======================= trusted section end ====================== */
+
+	/* ======================= project manager section start  ====================== */
+	.about-our-history .history-accordion-inner-wrapper img {
+		margin-left: 0;
+	}
+
+	/* ======================= project manager section end  ====================== */
+
+		
+	/* ======================= our team  section start ====================== */
+	.our-team-card-wrapper  .row {
+		--bs-gutter-x: 30px;
+	}
+	/* ======================= our team  section end ====================== */
+
+	/* ======================= single job post section start ====================== */
+	.job-left-content {
+		max-width: 600px;
+	}
+	/* ======================= single job post section end ====================== */
+
+
 }
 
 /* max-width 991 */
 @media (max-width: 991.98px) {
 
-    .section-title{
-        font-size: 26px;
-        line-height: 1.15;
-    }
-   /* ======================= banner section start ====================== */
-   .banner-area .row{
-    --bs-gutter-y:63px;
-   }
-   .banner-area{
-        padding-top: 120px;
-        padding-bottom: 120px;
-        min-height: auto;
-   }
-   .top-banner-title {
-        font-size: 30px;
-        line-height: 1.33;
-    }
-    .banner-content h1 {
-        margin-bottom: 30px;
-    }
-    .big-square-banner {
-        width: 600px;
-    }
-    .banner-content {
-        padding-right: 50px;
-    }
-    .banner-content .button-wrapper {
-        margin-top: 3px;
-    }
-    .bottom-navigation {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .bottom-content {
-        padding: 15px 5px;
-    }
-    .sub-banner {
-        padding-bottom: 100px;
-        padding-top: 100px;
-    }
-   /* ======================= banner section end ====================== */
+	.section-title {
+		font-size: 26px;
+		line-height: 1.15;
+	}
+	.header-logo-wrapper {
+		align-items: center;
+		display: flex;
+		padding: 15px 25px;
+		background: #fff;
+		padding-right: 5px;
+	}
+	/* ======================= banner section start ====================== */
+	.banner-area .row {
+		--bs-gutter-y: 63px;
+	}
 
-   /* ======================= home industries section start ====================== */
-   .home-industries{
-    padding-top: 100px;
-   }
-   .our-building .row {
-        flex-direction: column-reverse;
-    }
-    .green-line-big.none {
-        display: none;
-    }
-    .promise-image {
-        width: 80%;
-        max-width: 100%;
-        margin-bottom: 30px;
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-    }
-    .home-industries-image {
-        padding-left: 0;
-    }
-    .home-industries-content h2 {
-        line-height: 1.15;
-    }
-    .service-square {
-        min-height: 180px;
-    }
-    .our-market .row {
-        --bs-gutter-x: 15px;
-    }
-    .service-content-info {
-        padding: 0 15px;
-    }
-   /* ======================= home industries section end ====================== */
+	.banner-area {
+		padding-top: 120px;
+		padding-bottom: 120px;
+		min-height: auto;
+	}
 
-   
-    /* ======================= trusted section start ====================== */
-    .logo-wrapper {
-      flex-wrap: wrap;
-    }
-    /* ======================= trusted section end ====================== */
+	.top-banner-title {
+		font-size: 30px;
+		line-height: 1.33;
+	}
 
-    /* ======================= testimonial section start ====================== */
-    .testimonial-area{
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    .testimonial-left-info {
-        margin-top: 0;
-        text-align: center;
-        margin-bottom: 70px;
-        position: relative;
-        z-index: 1;
-    }
-    .half-section{
-        display: none;
-    }
-    .testi-wrapper-info {
-        gap: 36px;
-    }
-    .testi-wrapper {
-        max-width: 318px;
-    }
-    /* ======================= testimonial section end ====================== */
+	.banner-content h1 {
+		margin-bottom: 30px;
+	}
 
-    /* ======================= footer section start ====================== */
-    .footer {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .left-copyright-flex {
-        margin-bottom: 40px;
-    }
-    .left-copyright-flex a{
-        margin-left: 0;
-    }
-    /* ======================= footer section end ====================== */
+	.big-square-banner {
+		width: 600px;
+	}
 
-    /* ======================= budgeting section start ====================== */
-    .budgeting-area {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .service-square.bigger {
-        min-height: 550px;
-    }
-    .budgeting-content {
-        margin-top: 50px;
-        padding-left: 0;
-        max-width: 100%;
-    }
-    .service-title {
-        font-size: 20px;
-        line-height: 1.3;
-    }
-    .budgeting-content h3 {
-        margin-bottom: 27px;
-    }
-    .budgeting-item.row-reverse .budgeting-content {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .top-title-text.bigger {
-        font-size: 26px;
-        line-height: 1.15;
-    }
-    .Rewarding-item .button-wrapper {
-        margin-top: 28px;
-    }
-    .Rewarding-item {
-        padding: 50px 0;
-    }
-    /* ======================= budgeting section end ====================== */
+	.banner-content {
+		padding-right: 50px;
+	}
 
-    /* ======================= our market section start ====================== */
-    .our-market-area .row {
-        --bs-gutter-x: 12px;
-    }
-    /* ======================= our market section end ====================== */
+	.banner-content .button-wrapper {
+		margin-top: 3px;
+	}
 
-    /* ======================= single healthcare project section start ====================== */
-    .single-healthcare-content {
-        margin-top: 50px;
-    }
-    .single-healthcare-content-info {
-        margin-top: 28px;
-    }
-    .gallery > a {
-        flex: 1 0 calc(33% - 20px);
-    }
-    /* ======================= single healthcare project section end ====================== */
+	.bottom-navigation {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
-    /* ======================= related projects section start ====================== */
-    .related-projects-card {
-        margin-top: 30px;
-    }
-    .related-projects-area{
-        padding-bottom: 60px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    /* ======================= related projects section end ====================== */
+	.bottom-content {
+		padding: 15px 5px;
+	}
+
+	.sub-banner {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+
+	/* ======================= banner section end ====================== */
+
+	/* ======================= home industries section start ====================== */
+	.home-industries {
+		padding-top: 100px;
+	}
+
+	.our-building .row {
+		flex-direction: column-reverse;
+	}
+
+	.green-line-big.none {
+		display: none;
+	}
+
+	.promise-image {
+		width: 80%;
+		max-width: 100%;
+		margin-bottom: 30px;
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
+	}
+
+	.home-industries-image {
+		padding-left: 0;
+	}
+
+	.home-industries-content h2 {
+		line-height: 1.15;
+	}
+
+	.service-square {
+		min-height: 180px;
+	}
+
+	.our-market .row {
+		--bs-gutter-x: 15px;
+	}
+
+	.service-content-info {
+		padding: 0 15px;
+	}
+
+	/* ======================= home industries section end ====================== */
+
+
+	/* ======================= trusted section start ====================== */
+	.logo-wrapper {
+		flex-wrap: wrap;
+	}
+
+	/* ======================= trusted section end ====================== */
+
+	/* ======================= testimonial section start ====================== */
+	.testimonial-area {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.testimonial-left-info {
+		margin-top: 0;
+		text-align: center;
+		margin-bottom: 70px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.half-section {
+		display: none;
+	}
+
+	.testi-wrapper-info {
+		gap: 36px;
+	}
+
+	.testi-wrapper {
+		max-width: 318px;
+	}
+
+	/* ======================= testimonial section end ====================== */
+
+	/* ======================= footer section start ====================== */
+	.footer {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.left-copyright-flex {
+		margin-bottom: 40px;
+	}
+
+	.left-copyright-flex a {
+		margin-left: 0;
+	}
+
+	/* ======================= footer section end ====================== */
+
+	/* ======================= budgeting section start ====================== */
+	.budgeting-area {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.service-square.bigger {
+		min-height: 550px;
+	}
+
+	.budgeting-content {
+		margin-top: 50px;
+		padding-left: 0;
+		max-width: 100%;
+	}
+
+	.service-title {
+		font-size: 20px;
+		line-height: 1.3;
+	}
+
+	.budgeting-content h3 {
+		margin-bottom: 27px;
+	}
+
+	.budgeting-item.row-reverse .budgeting-content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.top-title-text.bigger {
+		font-size: 26px;
+		line-height: 1.15;
+	}
+
+	.Rewarding-item .button-wrapper {
+		margin-top: 28px;
+	}
+
+	.Rewarding-item {
+		padding: 50px 0;
+	}
+
+	/* ======================= budgeting section end ====================== */
+
+	/* ======================= our market section start ====================== */
+	.our-market-area .row {
+		--bs-gutter-x: 12px;
+	}
+
+	/* ======================= our market section end ====================== */
+
+	/* ======================= single healthcare project section start ====================== */
+	.single-healthcare-content {
+		margin-top: 50px;
+	}
+
+	.single-healthcare-content-info {
+		margin-top: 28px;
+	}
+
+	.gallery>a {
+		flex: 1 0 calc(33% - 20px);
+	}
+
+	/* ======================= single healthcare project section end ====================== */
+
+	/* ======================= related projects section start ====================== */
+	.related-projects-card {
+		margin-top: 30px;
+	}
+
+	.related-projects-area {
+		padding-bottom: 60px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	/* ======================= related projects section end ====================== */
+
+	/* ======================= project manager section start ====================== */
+	.project-manager-area .section-title-wrapper ,
+	.section-title-wrapper {
+		padding: 100px 0px 90px;
+	}
+
+	.section-title-wrapper h2 {
+		text-align: left;
+	}
+
+	.about-our-history .history-accordion-inner-wrapper img {
+		max-width: 335px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.history-accordion-inner-wrapper-content {
+		margin-top: 30px;
+	}
+
+	.about-our-history .history-accordion-inner-wrapper .promise-content {
+		margin-top: 30px;
+		max-width: 100%;
+	}
+
+	.accordion-body {
+		padding: 30px;
+	}
+
+	/* ======================= project manager section end ====================== */
+
+	/* ======================= meet the owner section start ====================== */
+	.owner-img-wrapper img {
+		max-width: 100%;
+	}
+
+	.meet-owner-content-wrapper {
+		margin-top: 30px;
+	}
+
+	.meet-the-owner {
+		padding: 60px 20px;
+	}
+
+	/* ======================= meet the owner section end ====================== */
+	/* ======================= fun fact section start ====================== */
+	.fun-title {
+		font-size: 45px;
+		line-height: 1.11;
+	}
+
+	/* ======================= fun fact section end ====================== */
+
+	/* ======================= contact section start  ====================== */
+	.contact-area {
+		padding: 120px 40px 120px;
+	}
+
+	.subcontractors-wrapper {
+		margin-top: 30px;
+		padding: 20px;
+	}
+
+	/* ======================= contact section end  ====================== */
+
+	/* ======================= employee benefits & perks section start ====================== */
+	.employee-benefits-img img {
+		width: 100%;
+		height: 100%;
+	}
+	.employee-benefits-content {
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+	/* ======================= employee benefits & perks section end ====================== */
+	/* ======================= our team  section start ====================== */
+	.our-team-card-wrapper  .row {
+		--bs-gutter-y: 30px;
+	}
+	.our-team-card{
+		padding: 20px 15px;
+	}
+	/* ======================= our team  section end ====================== */
+
+	/* ======================= single job post section start ====================== */
+	.job-left-content {
+		max-width: 100%;
+	}
+	.single-job-wrapper .col {
+		flex: 1 0 100%;
+	}
+	.job-sticky {
+		top: 0px;
+		max-width: 350px;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+		z-index: 1;
+		margin-top: 30px;
+	}
+	.single-job-wrapper .col:nth-child(2) {
+		max-width: 100%;
+	}
+	/* ======================= single job post section end ====================== */
+
+	/* ======================= home industries section start ====================== */
+	.promise-content.content-info {
+		max-width: 100%;
+	}
+	/* ======================= home industries section end ====================== */
+
+	.swiper-pagination-clickable .swiper-pagination-bullet ,
+	[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled),
+	body, button, a, input, textarea {
+		cursor: inherit;
+	}
+
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
-    .section-title{
-        font-size: 20px;
-        line-height: 1.3;
-    }
-   /* ======================= banner section start ====================== */
-   .banner-area {
-        padding-bottom: 155px;
-    }
-    .big-square-banner {
-        width: 400px;
-    }
-    .top-banner-title {
-        font-size: 26px;
-        line-height: 1.30;
-    }
-    .scroll-down {
-        display: none;
-    }
-    .bottom-navigation {
-        width: 100%;
-        left: 0;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .overlay-botton-line {
-        transform: skew(0deg);
-    }
-    .sub-banner {
-        padding-bottom: 150px;
-        padding-top: 150px;
-    }
-    .bottom-content {
+	.section-title {
+		font-size: 20px;
+		line-height: 1.3;
+	}
+
+	/* ======================= banner section start ====================== */
+	.banner-area {
+		padding-bottom: 155px;
+	}
+
+	.big-square-banner {
+		width: 400px;
+	}
+	.sub-banner-content h1,
+	.top-banner-title {
+		font-size: 26px;
+		line-height: 1.30;
+	}
+
+	.scroll-down {
+		display: none;
+	}
+
+	.bottom-navigation {
+		width: 100%;
+		left: 0;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.overlay-botton-line {
+		transform: skew(0deg);
+	}
+
+	.sub-banner {
+		padding-bottom: 150px;
+		padding-top: 150px;
+	}
+
+	.bottom-content {
+		flex-direction: column;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.bottom-icon {
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+
+	/* ======================= banner section end ====================== */
+
+	/* ======================= home industries section start ====================== */
+	.home-industries {
+		padding: 60px 10px;
+	}
+
+	.promise-image {
+		width: 100%;
+	}
+
+	.home-industries-content h2 {
+		font-size: 20px;
+		line-height: 1.3;
+	}
+
+	.our-market {
+		margin-top: 130px;
+	}
+
+	.our-market .col-sm-4 {
+		flex: 0 0 100%;
+		width: 100%;
+	}
+
+	.our-market .section-title {
+		margin-bottom: 80px;
+	}
+
+	.service-square {
+		display: none;
+	}
+
+	.services-image {
+		position: relative;
+		top: 0%;
+		transform: none;
+	}
+
+	/* ======================= home industries section end ====================== */
+
+	/* ======================= trusted section start ====================== */
+	
+	.trusted-area {
+		padding: 80px 10px;
+	}
+
+	/* ======================= trusted section end ====================== */
+
+	/* ======================= testimonial section start ====================== */
+	.testi-wrapper-info {
+		flex-wrap: wrap;
+	}
+
+	.testi-wrapper {
+		width: 100%;
+		border: 1px solid #ededed;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		max-width: 100%;
+	}
+
+	.testi-wrapper-info {
+		gap: 20px;
+	}
+
+	.testimonial-area {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	/* ======================= testimonial section end ====================== */
+
+	/* ======================= testimonial section end ====================== */
+	.footer {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.footer-content-wrapper {
+		margin-top: 50px;
+	}
+
+	/* ======================= testimonial section end ====================== */
+
+	/* ======================= budgeting section start ====================== */
+	.single-healthcare-area,
+	.budgeting-area {
+		padding: 60px 5px;
+	}
+
+	.service-title {
+		font-size: 16px;
+		line-height: 1.25;
+	}
+
+	.budgeting-item {
+		margin-bottom: 100px;
+	}
+
+	.budgeting-content {
+		margin-top: 30px;
+	}
+
+	.top-title-text,
+	.top-title-text.bigger {
+		font-size: 20px;
+		line-height: 1.3;
+	}
+
+	/* ======================= budgeting section end ====================== */
+
+	/* ======================= our market section start ====================== */
+	.our-market-area {
+		padding: 125px 0 100px;
+	}
+
+	.our-market-area .col-sm-4 {
+		flex: 0 0 100%;
+	}
+
+	.our-market-area .container {
+		--bs-gutter-x: 12px;
+	}
+
+	/* ======================= our market section end ====================== */
+
+	/* ======================= single healthcare project section start ====================== */
+	.single-healthcare-content-info>div {
+		flex: 1 0 100%;
+	}
+
+	.white-color {
+		text-align: left;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.gallery>a {
+		flex: 1 0 calc(100% - 20px);
+	}
+
+	/* ======================= single healthcare project section end ====================== */
+
+	/* ======================= project manager section start ====================== */
+	.history-accordion-inner-wrapper>div {
+		flex: 1 0 100%;
+	}
+
+	.about-our-history .history-accordion-inner-wrapper {
+		flex-wrap: wrap;
+		padding: 5px;
+	}
+
+	.about-our-history .history-accordion-inner-wrapper img {
+		max-width: 100%;
+	}
+
+	.about-our-history .accordion-body,
+	.taylor-our-history .accordion-body {
+		padding: 15px;
+	}
+
+	/* ======================= project manager section end ====================== */
+
+	/* ======================= fun fact section start ====================== */
+	.fun-title {
+		font-size: 35px;
+		line-height: 1.42;
+	}
+
+	.fun-fact-area .row {
+		--bs-gutter-y: 40px;
+	}
+
+	/* ======================= fun fact section end ====================== */
+
+	/* ======================= contact section start  ====================== */
+	.contact-area {
+		padding: 80px 25px 80px;
+	}
+	/* ======================= contact section end  ====================== */
+
+    /* ======================= contact section start ====================== */
+    .job-card{
         flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
     }
-    .bottom-icon {
-        margin-bottom: 10px;
-        margin-right: 0;
+    .job-card h4 {
+        font-size: 18px;
     }
-   /* ======================= banner section end ====================== */
+    /* ======================= contact section end ====================== */
 
-  /* ======================= home industries section start ====================== */
-  .home-industries{
-    padding: 60px 10px;
-  }
-  .promise-image {
-        width: 100%;
-    }
-    .home-industries-content h2 {
-        font-size: 20px;
-        line-height:1.3;
-    }
-    .our-market {
-        margin-top: 130px;
-    }
-    .our-market .col-sm-4 {
-        flex: 0 0 100%;
-        width: 100%;
-    }
-    .our-market .section-title {
-        margin-bottom: 80px;
-    }
-    .service-square {
-        display: none;
-    }
-    .services-image {
-        position: relative;
-        top: 0%;
-        transform: none;
-    }
-  /* ======================= home industries section end ====================== */
+	/* ======================= gallery slider section start ====================== */
+	.swiper-gallery-wrapper-info img {
+		height: 350px;
+	}
+	/* ======================= gallery slider section end ====================== */
 
-    /* ======================= trusted section start ====================== */
-    .trusted-area {
-        padding: 80px 10px;
-    }
-    /* ======================= trusted section end ====================== */
+	/* ======================= employee benefits & perks section start ====================== */
+	.employee-benefits-img img {
+		height: 400px;
+	}
+	/* ======================= employee benefits & perks section end ====================== */
 
-    /* ======================= testimonial section start ====================== */
-    .testi-wrapper-info{
-        flex-wrap: wrap;
-    }
-    .testi-wrapper {
-        width: 100%;
-        border: 1px solid #ededed;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        max-width: 100%;
-    }
-    .testi-wrapper-info {
-        gap: 20px;
-    }
-    .testimonial-area {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    /* ======================= testimonial section end ====================== */
-
-    /* ======================= testimonial section end ====================== */
-    .footer {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-    .footer-content-wrapper {
-        margin-top: 50px;
-    }
-    /* ======================= testimonial section end ====================== */
-
-    /* ======================= budgeting section start ====================== */
-    .single-healthcare-area ,
-    .budgeting-area{
-        padding: 60px 5px;
-    }
-    .service-title {
-        font-size: 16px;
-        line-height: 1.25;
-    }
-    .budgeting-item {
-        margin-bottom: 100px;
-    }
-    .budgeting-content {
-        margin-top: 30px;
-    }
-    .top-title-text, .top-title-text.bigger {
-        font-size: 20px;
-        line-height: 1.3;
-    }
-    /* ======================= budgeting section end ====================== */
-
-    /* ======================= our market section start ====================== */
-    .our-market-area {
-        padding: 125px 0 100px;
-    }
-    .our-market-area .col-sm-4 {
-        flex: 0 0 100%;
-    }
-    .our-market-area  .container {
-        --bs-gutter-x: 12px;
-    }
-    /* ======================= our market section end ====================== */
-
-    /* ======================= single healthcare project section start ====================== */
-    .single-healthcare-content-info > div {
-        flex: 1 0 100%;
-    }
-    .white-color {
-        text-align: left;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .gallery > a {
-        flex: 1 0 calc(100% - 20px);
-    }
-    /* ======================= single healthcare project section end ====================== */
-
-    
+	/* ======================= our team  section start ====================== */
+	.our-team-area {
+		padding: 0 20px;
+	}
+	.our-team-area h2 {
+		width: calc(100% + 40px);
+		margin-left: -20px;
+	}
+	/* ======================= our team  section end ====================== */
 }
 
 /* max-width 575 */
 @media (max-width: 575.98px) {
-.bottom-navigation {
-    flex-direction: column;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.sub-banner {
-    padding-bottom: 380px;
-}
-.sub-banner.projects, .sub-banner.markets{
-    padding-bottom: 150px;
-}
-.bottom-content-link{
-    text-align: center;
-}
-/* ======================= trusted section start ====================== */
-.logo-img-wrapper img {
-    max-width: 109px;
-}
-.logo-img-wrapper {
-    flex-basis: 30%;
-}
-.logo-wrapper {
-    gap: 30px;
-}
+	/* header section start */
+	.bottom-navigation {
+		flex-direction: column;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 
-/* ======================= trusted section end ====================== */
+	.sub-banner {
+		padding-bottom: 380px;
+	}
 
-/* ======================= testimonial section start ====================== */
-.testimonial-area {
-    padding-left: 0;
-    padding-right: 0;
-}
-/* ======================= testimonial section end ====================== */
+	.sub-banner.projects,
+	.sub-banner.markets {
+		padding-bottom: 150px;
+	}
 
-/* ======================= header popup section start ====================== */
-.left-part{
-    width: 100%;
-}
-.navigation-wrapper{
-    min-width: 100%;
-}
-/* ======================= header popup section end ====================== */
-/* ======================= related projects section start ====================== */
-.related-projects-card {
-    flex-wrap: wrap;
-}
-/* ======================= related projects section end ====================== */
+	.bottom-content-link {
+		text-align: center;
+	}
+
+
+	.navigation-wrapper li {
+		margin-bottom: 10px;
+	}
+	.navigation-wrapper li a {
+		font-size: 30px;
+	}
+	.header-close-btn {
+		right: 20px;
+		top: 20px;
+	}
+	.left-part {
+		display: block;
+		text-align: center;
+		padding: 100px 0;
+		overflow-y: scroll;
+	}
+	.left-part .social-wrapper {
+		justify-content: center;
+	}
+	/* header section end */
+
+	/* ======================= trusted section start ====================== */
+	.logo-img-wrapper img {
+		max-width: 109px;
+	}
+
+	.logo-img-wrapper {
+		flex-basis: 30%;
+	}
+
+	.logo-wrapper {
+		gap: 30px;
+	}
+
+	/* ======================= trusted section end ====================== */
+
+	/* ======================= testimonial section start ====================== */
+	.testimonial-area {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/* ======================= testimonial section end ====================== */
+
+	/* ======================= header popup section start ====================== */
+	.left-part {
+		width: 100%;
+	}
+	.navigation-wrapper {
+		min-width: 100%;
+	}
+	/* ======================= header popup section end ====================== */
+	/* ======================= related projects section start ====================== */
+	.related-projects-card {
+		flex-wrap: wrap;
+	}
+	/* ======================= related projects section end ====================== */
+
+	/* ======================= single job post section start ====================== */
+	.job-sticky {
+		max-width: 100%;
+	}
+	.single-job-area {
+		padding: 110px 6px 40px;
+	}
+	/* ======================= single job post section end ====================== */
+
 }
 
 /* max-width 479 */
 @media (max-width: 479.98px) {
 
-    /* ======================= banner section start ====================== */
-    .banner-area {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .top-banner-title {
-        font-size: 20px;
-        line-height: 1.3;
-    }
-    .button-wrapper {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    /* ======================= banner section end ====================== */
+	/* ======================= banner section start ====================== */
+	.banner-area {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 
-    /* ======================= trusted section start ====================== */
-    .logo-wrapper {
-        gap: 16px;
-    }
-    .logo-img-wrapper {
-        flex-basis: 35%;
-    }
-    .logo-img-wrapper img {
-        max-width: 96px;
-    }
-    /* ======================= trusted section end ====================== */
+	.top-banner-title {
+		font-size: 20px;
+		line-height: 1.3;
+	}
+
+	.button-wrapper {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/* ======================= banner section end ====================== */
+
+	/* ======================= trusted section start ====================== */
+	.logo-wrapper {
+		gap: 16px;
+	}
+
+	.logo-img-wrapper {
+		flex-basis: 35%;
+	}
+
+	.logo-img-wrapper img {
+		max-width: 96px;
+	}
+
+	/* ======================= trusted section end ====================== */
+
+	/* ======================= project manager section start ====================== */
+	.accordion-header .top-title-text {
+		font-size: 16px;
+		line-height: 1.25;
+	}
+
+	.section-title-wrapper h2 {
+		font-size: 30px;
+	}
+
+	/* ======================= project manager section end ====================== */
+
+	/* ======================= contact section start  ====================== */
+	.contact-area {
+		padding: 80px 5px 80px;
+	}
+	.subcontractors-wrapper h3 {
+		font-size: 20px;
+	}
+
+	.subcontractors-wrapper h4 {
+		font-size: 18px;
+	}
+
+	.subcontractors-wrapper {
+		padding: 20px 10px;
+	}
+	.promise-wrapper {
+		flex: 1 0 100%;
+	}
+	/* ======================= contact section end  ====================== */
 
 
 }
 
 /* max-width 383 */
 @media (max-width: 383.98px) {
-  
+	.navigation-divider {
+		margin-left: 40px;
+		margin-right: 10px;
+	}
 }
